@@ -31,3 +31,9 @@ It demonstrates SQL skills across window functions, views, indexing, null checks
 * Operational efficiency (peak demand hours, incomplete rides reasons)
 
 * Revenue forecasting (daily/monthly trends, vehicle type analysis)
+
+## 🧰 Tools & Technologies
+* SQL (PostgreSQL or MySQL)
+* pgAdmin / MySQL Workbench (querying)
+* Excel / Power BI (optional for visualizations)
+* Git & GitHub (version control)
