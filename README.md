@@ -323,7 +323,7 @@ HAVING COUNT(*) > 2
 ORDER BY rides DESC;
 ```
 * Part B — Intermediate (21-41)
-  ```sql
+```sql
  -- 21) Revenue by payment method per month
 
 SELECT DATE(DATE_TRUNC('month', date)) AS month, 
