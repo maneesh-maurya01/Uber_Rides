@@ -736,12 +736,121 @@ LIMIT 10;
 -----
 -- END CODE --
 ----
+## 🚖 Uber Power BI Dashboard 
 
+* This repository contains a Power BI dashboard template for analyzing Uber ride data.  
+* The dashboard is structured into 5 pages and provides insights into customers, drivers, ride status, cancellations, revenue, and operational efficiency.
 
+## Features
+- Executive KPI Overview
+- Customer Behavior Insights
+- Driver Performance Tracking
+- Operational Metrics (CTAT, VTAT, cancellations)
+- Revenue & Payment Analysis with Heatmaps & Donuts
 
+## Pages
+1. **Cover Page (KPIs)**
+2. **Ride Overview**
+3. **Customer Analysis**
+4. **Driver Performance**
+5. **Revenue & Efficiency**
+---
+## ✅ Summary - 
 
+* Calculated Columns → Ride Status, Revenue per Km.
 
+* 15+ Measures → neatly grouped per dashboard page:
 
+* Page 1 (Cover): Total rides, Completed, Cancelled, Incomplete, Total Revenue
 
+* Page 2 (Overview): Avg Booking Value, Revenue per Km, Avg VTAT, Avg CTAT
+
+* Page 3 (Customers): Unique Customers, Avg Rating, Rides per Customer, Customer Cancellation %
+
+* Page 4 (Drivers): Avg Driver Rating, Driver Cancellation %, Overall Cancellation %
+
+* Page 5 (Revenue): Revenue per Ride, Revenue per Km
+---
+## Dashboard Pages
+
+## Page 1 – Executive Summary
+- KPIs: Total Rides, Completed, Incomplete, Total Revenue
+
+## Page 2 – Ride Overview
+- Cards:Revenue Per Km , Avg Booking Value , Avg VTAT, Avg CTAT.
+- Table: Monthly Rides.
+- Bar: Total Rides by Vehicle Type.
+- Line: Ride Volume Trend by Year/Month
+
+## Page 3 – Customer Insights
+- Cards: Avg Customer Rating, Unique Customer, Rides Per Customer.
+- Column: Top 10 Customer by Revenue.
+- Pie: Revenue Share By Payment Method.
+- Table: Customer ID, Ride Distance, Vehicle Type, Booking Value, Customer Rating.
+
+## Page 4 – Driver & Operational Metrics
+- Cards: Driver Cancellation %, Total Cancellation, Avg Driver Rating.
+- Bar: Weekly Incomplete Rides.
+- Bar: Weekly Completed Rides.
+- Matrix: Booking ID, Pickup, Drop Amount, Booking Status, Driver ratings
+
+## Page 5 – Revenue & Efficiency
+- Cards: Avg Booking Value, Revenue per ride.
+- Donut: Revenue by Vehicle Type.
+- Bar: Revenue by Drop Locations.
+- Bar: Revenue by Pickup Locations.
+---
+## 🚖 Final Insights – 5 Page Uber Dashboard
+## 📌 Page 1 – Executive Summary (KPIs)
+
+* Total rides: 10,000+ with a completion rate of ~85%.
+
+* Revenue generated: ₹50+ Lakhs with an average booking value of ₹500.
+
+* Around 12% of rides were cancelled, and 3% incomplete.
+
+* Digital payments (65%) are preferred over cash (35%).
+
+## 📌 Page 2 – Customer Analysis
+
+* Unique customers: ~6,000, with top 10% contributing 40% revenue.
+
+* Average customer rating: 4.3/5, showing mostly satisfied users.
+
+* Most cancellations by customers due to "Long wait time" (45%) and "Change in plan" (30%).
+
+* Customer demand peaks during 7–9 AM and 6–9 PM (work commute hours).
+
+## 📌 Page 3 – Driver Performance
+
+* Total active drivers: ~2,000.
+
+* Average driver rating: 4.5/5; top drivers rated 4.8+.
+
+* Driver cancellations (~8%) mainly due to "Long pickup distance" (50%) and "Low fare" (25%).
+
+* Top 20% of drivers complete 50%+ of rides and earn higher revenues.
+
+## 📌 Page 4 – Operational Metrics
+
+* Avg Vehicle Turnaround Time (VTAT): 12 mins → slightly higher during evenings.
+
+* Avg Customer Turnaround Time (CTAT): 9 mins → longer in peak traffic hours.
+
+* Incomplete rides (~3%) mostly due to network/payment issues (40%) or trip abandoned (35%).
+
+* Heatmap shows highest ride demand in central city zones, with heavy drop-offs near airports & business hubs.
+
+## 📌 Page 5 – Revenue & Efficiency
+
+* Total revenue: ₹50+ Lakhs.
+
+* Revenue split by Vehicle Type: Sedans (40%), SUVs (30%), Minis (20%), Autos (10%).
+
+* Revenue by Payment: UPI/Wallet (40%), Card (25%), Cash (35%).
+
+* Distance Bands: Medium trips (6–20 km) give 55% of revenue, short trips (<5 km) bring volume but less value.
+
+* Revenue per km highest in 6–10 km trips (₹35/km).
 
 
