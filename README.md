@@ -800,57 +800,52 @@ LIMIT 10;
 - Bar: Revenue by Drop Locations.
 - Bar: Revenue by Pickup Locations.
 ---
-## 🚖 Final Insights – 5 Page Uber Dashboard
+## 🚖 Final Insights – 5 Page Uber Dashboard + SQL
 ## 📌 Page 1 – Executive Summary (KPIs)
 
-* Total rides: 10,000+ with a completion rate of ~85%.
+* Total rides: 150,000+ with a completion rate of ~62%.
 
-* Revenue generated: ₹50+ Lakhs with an average booking value of ₹500.
+* Revenue generated: ₹5.20 Crore with an average booking value of ₹345.
 
-* Around 12% of rides were cancelled, and 3% incomplete.
+* Around 38% of rides were cancelled where, 18% Driver cancellation, around 7% customer cancellation, incomplete 6% and 'no driver found' 7% .
+* Total distance cover by all rides is 
 
-* Digital payments (65%) are preferred over cash (35%).
+* Digital payments (~57%) are preferred over cash (~24%), Credit Card (10%), Debit Carde(8%)
 
 ## 📌 Page 2 – Customer Analysis
 
-* Unique customers: ~6,000, with top 10% contributing 40% revenue.
+* Unique customers: ~149,000.
 
-* Average customer rating: 4.3/5, showing mostly satisfied users.
+* Average customer rating: 2.7/5.top customer rated 4.9+
 
-* Most cancellations by customers due to "Long wait time" (45%) and "Change in plan" (30%).
+* Most cancellations by drivers due to "Customer related issue" and "More than permitted people".
 
-* Customer demand peaks during 7–9 AM and 6–9 PM (work commute hours).
+* Customer demand peaks during 7–11 AM and maximum 6–8 PM (work commute hours).
 
 ## 📌 Page 3 – Driver Performance
 
-* Total active drivers: ~2,000.
+* Cancellations by customer ~7% due to "Driver is not moving" and "Wrong address".
 
-* Average driver rating: 4.5/5; top drivers rated 4.8+.
+* Average driver rating: 2.7/5; top drivers rated 4.8+.
 
-* Driver cancellations (~8%) mainly due to "Long pickup distance" (50%) and "Low fare" (25%).
-
-* Top 20% of drivers complete 50%+ of rides and earn higher revenues.
+* Driver cancellations (~18%) mainly due to "Customer related issue" and "More than permitted people".
 
 ## 📌 Page 4 – Operational Metrics
 
-* Avg Vehicle Turnaround Time (VTAT): 12 mins → slightly higher during evenings.
+* Avg Vehicle Turnaround Time (VTAT): ~8 mins → slightly higher during evenings.
 
-* Avg Customer Turnaround Time (CTAT): 9 mins → longer in peak traffic hours.
+* Avg Customer Turnaround Time (CTAT): ~20 mins → longer in peak traffic hours.
 
-* Incomplete rides (~3%) mostly due to network/payment issues (40%) or trip abandoned (35%).
-
-* Heatmap shows highest ride demand in central city zones, with heavy drop-offs near airports & business hubs.
+* Incomplete rides (~6%) mostly due to "Customer demand" issues (~34%) and "Vehicle breakdown" issues (~33%) or "Other reasons" (32%).2948 3012 3040
 
 ## 📌 Page 5 – Revenue & Efficiency
 
-* Total revenue: ₹50+ Lakhs.
+* Total revenue: ₹5.20 Crore.
+* Revenue per ride ₹557
 
-* Revenue split by Vehicle Type: Sedans (40%), SUVs (30%), Minis (20%), Autos (10%).
-
-* Revenue by Payment: UPI/Wallet (40%), Card (25%), Cash (35%).
+* Revenue split by Vehicle Type: Auto (~25%), Go Mini (19%), Go sedan (18%), Premier Sedan (12%), Bike (15%), eBike (7%),
 
 * Distance Bands: Medium trips (6–20 km) give 55% of revenue, short trips (<5 km) bring volume but less value.
-
-* Revenue per km highest in 6–10 km trips (₹35/km).
-
+* Revenue per km highest in 6–10 km trips (₹21/km).
+* Revenue by Payment: UPI/Wallet (29M), Card (9M), Cash (13M).
 
